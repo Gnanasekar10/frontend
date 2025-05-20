@@ -1,0 +1,62 @@
+body {
+    /* background-image: linear-gradient(22.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(67.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(157.5deg, rgb(140, 15, 105) 0%, rgb(140, 15, 105) 1%,rgb(133, 14, 103) 1%, rgb(133, 14, 103) 23%,rgb(125, 12, 102) 23%, rgb(125, 12, 102) 39%,rgb(118, 11, 100) 39%, rgb(118, 11, 100) 45%,rgb(110, 9, 98) 45%, rgb(110, 9, 98) 47%,rgb(103, 8, 96) 47%, rgb(103, 8, 96) 52%,rgb(95, 6, 95) 52%, rgb(95, 6, 95) 70%,rgb(88, 5, 93) 70%, rgb(88, 5, 93) 100%),linear-gradient(90deg, rgb(184, 43, 117),rgb(202, 2, 218)); background-blend-mode:overlay,overlay,overlay,normal; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(49, 0, 139);
+
+}
+
+.welcome-section h1 {
+    color: rgba(141, 9, 202, 0.64);
+    font-size: 35px;
+}
+.welcome-section p{
+    text-align: center;
+}
+.welcome-section button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    transition-duration: 0.5s;
+    color: rgb(12, 12, 12);
+    background-color: rgba(17, 196, 241, 0.69);
+}
+
+.welcome-section button:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    /* transform: rotateX(360deg); */
+}
+
+.welcome-section button:active {
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.welcome-section a{
+    text-decoration: none;
+}
+
+/* .logo {
+    background-image: url("./public/img/display.jpeg");
+    background-size: cover;
+    
+
+} */

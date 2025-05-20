@@ -1,0 +1,134 @@
+/* Header Tag Styles */
+
+.header-04{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgb(22 38 49);
+}
+.header-04 .flex-part{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.header-04 i{
+    color: white;
+}
+.header-04 span{
+    display: flex;
+    align-items: center;
+}
+.header-04 h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.header-04 .circle img{
+    height: 42px;
+    width: 42px;
+    border: 3px dotted black;
+    border-radius: 60px;
+    background-color: rgba(17, 196, 241, 0.69);
+    transition-duration: 0.5s;
+}
+.header-04 .circle img:hover{
+    transform: rotateY(360deg);
+}
+
+/* Main tag styles */
+.main-04{
+    height: 80vh;
+    padding: 15px;
+    padding-top: 30px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+/* Section 1 Styles */
+
+.main-04 .section-01{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.section-01 .sec1child{
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(35 55 65);
+    border-radius: 10px;
+}
+
+/* Section 2 Styles */
+
+.main-04 .section-02{
+    color: white;
+    margin-top: 40px;
+}
+.section-02 .sec2 p{
+    font-size: 1rem;
+}
+.section-02 .sec2btn{
+    color: rgba(17, 196, 241, 0.69);
+    background-color: rgb(70 90 105);
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    margin-left: 10px;
+}
+.section-02 .sec2btn:hover{
+    box-shadow: 2px 2px 2px rgba(17, 196, 241, 0.69);
+}
+.section-02 .sec2btn:active{
+    box-shadow: 2px 2px 2px rgb(238, 238, 238);
+    color: white;
+}
+
+/* Footer tag styles */
+
+.footer-04{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+    background-color: rgb(22 38 49);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+.footer-04 .linkk4{
+    font-size: 2vh;
+    color: rgba(17, 196, 241, 0.69);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid;
+}
+.footer-04 .linkk1,.linkk2,.linkk3{
+    font-size: 2vh;
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-04 .imoji1{
+    margin-left: 4px;
+    font-size: 20px;
+}
+.footer-04 .imoji2{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.footer-04 .imoji3{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer-04 .imoji4{
+    margin-left: 8px;
+    font-size: 20px;
+}

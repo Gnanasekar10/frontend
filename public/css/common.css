@@ -1,0 +1,54 @@
+*{
+    font-family: monospace;
+}
+body {
+    margin: 0;
+    
+}
+
+/* Welcome, Login, SignUp Page Common CSS */
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo h1 {
+    font-weight: lighter;
+    font-size:25px;
+}
+
+.logo img {
+    border-radius: 60px;
+    margin-left: 20px;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover {
+    transform: rotateY(360deg);
+}
+
+/* Home, Search, Library, About Page Common CSS */
+
+/* Songplay Section Styles */
+
+.songplay-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    height: 20px;
+    padding: 20px;
+    background-color: rgb(241 243 244);
+    position: fixed;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+}
+.song-pic{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(0, 0, 0);
+}
+
