@@ -59,8 +59,8 @@ function Signupcontainer() {
 myHeaders.append("Content-Type", "application/json");
 
 const raw = JSON.stringify({
-  "username": "user",
-  "password": "user"
+  "username": username,
+  "password": password
 });
 
 const requestOptions = {
